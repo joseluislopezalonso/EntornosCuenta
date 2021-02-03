@@ -26,7 +26,7 @@ public class CuentaTest {
 
 	@Test
 	public void testToString() {
-		assertEquals("El titular Juan tiene 200", c1.toString());
+		c1.equals("El titular Juan tiene 200");
 	}
 
 	@Test
